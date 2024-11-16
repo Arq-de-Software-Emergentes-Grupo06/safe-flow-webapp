@@ -129,7 +129,7 @@
 
 .floating-button {
   position: fixed;
-  bottom: 20px;
+  bottom: 70px; /* Incrementamos el espacio para que quede sobre el footer */
   right: 20px;
   padding: 12px 24px;
   background-color: #ffa726; /* Color naranja */
@@ -145,5 +145,5 @@
 
 .floating-button:hover {
   background-color: #fb8c00;
-  transform: scale(1.05); /* Hace que el botón crezca ligeramente al pasar el cursor */
+  transform: scale(1.05);
 }

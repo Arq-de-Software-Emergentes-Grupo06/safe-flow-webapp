@@ -22,6 +22,7 @@ import { ToolbarComponent } from './shared/components/toolbar/toolbar.component'
 import { IncidentsComponent } from './Incidents/incidents/incidents.component';
 import { MonitoringComponent } from './Management/monitoring/monitoring/monitoring.component';
 import { ComponentsComponent } from './Profiles/components/components.component';
+import { FooterComponent } from './shared/footer/footer/footer.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { ComponentsComponent } from './Profiles/components/components.component'
     IncidentsComponent,
     MonitoringComponent,
     ComponentsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
